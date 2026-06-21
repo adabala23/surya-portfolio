@@ -87,7 +87,7 @@ nav a:hover{
     font-weight:bold;
     transition: all 0.3s ease;
 }
-}
+
 
 .hero-image img{
     width:220px;
@@ -97,7 +97,7 @@ nav a:hover{
     border:4px solid #D4AF37;
     box-shadow:0 0 30px rgba(212,175,55,0.4);
 }
-}
+
 .hero-image{
     flex:1;
     display:flex;
