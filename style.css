@@ -98,3 +98,23 @@ nav a:hover{
     box-shadow: 0 0 25px rgba(212,175,55,0.5);
 }
 }
+#about{
+    margin:80px;
+    padding:50px;
+    background:rgba(255,255,255,0.03);
+    border:1px solid rgba(212,175,55,0.15);
+    border-radius:25px;
+    backdrop-filter:blur(10px);
+}
+
+#about h2{
+    color:#D4AF37;
+    margin-bottom:20px;
+    font-size:38px;
+}
+
+#about p{
+    color:#d1d5db;
+    line-height:1.9;
+    font-size:18px;
+}
