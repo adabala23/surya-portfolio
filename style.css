@@ -13,6 +13,7 @@ body{
         #0B0F19
     );
     color:#F9FAFB;
+    scroll-behavior:smooth;
 }
 
 nav{
@@ -45,7 +46,7 @@ nav a:hover{
 }
 
 .hero{
-    min-height:90vh;
+    min-height:100vh;
     display:flex;
     justify-content:space-between;
     align-items:center;
@@ -104,6 +105,11 @@ nav a:hover{
     align-items:center;
 }
 #about{
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+
     margin:80px;
     padding:50px;
     background:rgba(255,255,255,0.03);
