@@ -34,7 +34,6 @@ nav ul{
     list-style:none;
     gap:35px;
 }
-
 nav a{
     text-decoration:none;
     color:white;
@@ -54,7 +53,7 @@ nav a:hover{
 }
 
 .hero-content{
-    width:55%;
+    width:65%;
 }
 
 .hero-content h1{
@@ -94,11 +93,13 @@ nav a:hover{
     height:240px;
     border-radius:50%;
     object-fit:cover;
+    object-position:center;
     border:4px solid #D4AF37;
     box-shadow: 0 0 25px rgba(212,175,55,0.5);
 }
 }
-.hero-image{
+.hero-image
+    flex:0.8;
     display:flex;
     justify-content:center;
     align-items:center;
