@@ -98,6 +98,11 @@ nav a:hover{
     box-shadow: 0 0 25px rgba(212,175,55,0.5);
 }
 }
+.hero-image{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
 #about{
     margin:80px;
     padding:50px;
