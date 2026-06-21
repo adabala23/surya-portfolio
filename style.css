@@ -6,7 +6,12 @@
 }
 
 body{
-    background:#0B0F19;
+    background:linear-gradient(
+        135deg,
+        #0B0F19,
+        #111827,
+        #0B0F19
+    );
     color:#F9FAFB;
 }
 
@@ -15,6 +20,7 @@ nav{
     justify-content:space-between;
     align-items:center;
     padding:25px 80px;
+    border-bottom:1px solid rgba(212,175,55,0.15);
 }
 
 .logo{
@@ -55,6 +61,7 @@ nav a:hover{
     font-size:58px;
     margin-bottom:20px;
     color:#D4AF37;
+    text-shadow:0 0 20px rgba(212,175,55,0.4);
 }
 
 .hero-content h2{
